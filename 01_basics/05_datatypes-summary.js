@@ -30,7 +30,31 @@ const fun=function () {
     console.log("Hello World");
     
 }
-console.log(fun);
+
+// console.log(fun)
+
+// console.log(typeof bigNumber)
 
 
-console.log(typeof bigNumber)
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap (Non Primitive)
+
+let myname = "Shubham";
+let othername = myname;
+othername="Anurag";
+
+console.log(myname);
+console.log(othername);
+
+let obj1={
+    email : "abc@ai ",
+    age : 20
+}
+
+let obj2 = obj1
+obj2.email = "rahul@gamil.com"
+
+console.log(obj1.email);
+console.log(obj2.email);
