@@ -15,7 +15,7 @@ let valueInNumber =Number(score)
 let isLoggedIn=0
 
 let booleanchk=Boolean(isLoggedIn)
-console.log(booleanchk);
+// console.log(booleanchk);
 
 
 // 1 or any no. except 0 => true ; 0 =>false
@@ -24,7 +24,17 @@ console.log(booleanchk);
 
 let someno=33
 let stringno=String(someno)
-console.log(stringno);
+// console.log(stringno);
 
-// ===================== OPERATION=================
+// ===================== OPERATION =================
+
+let value=3
+let negvalue=-value
+console.log(negvalue)
+
+console.log(2%3)
+
+// console.log( 1 + 2 + "3")  //33
+// console.log(+true);  //1
+// console.log(+"");     // 0 
 
