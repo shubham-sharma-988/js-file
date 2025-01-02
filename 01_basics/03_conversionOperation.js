@@ -25,3 +25,6 @@ console.log(booleanchk);
 let someno=33
 let stringno=String(someno)
 console.log(stringno);
+
+// ===================== OPERATION=================
+
